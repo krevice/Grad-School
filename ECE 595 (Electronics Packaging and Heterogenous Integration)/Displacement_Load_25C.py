@@ -6,7 +6,8 @@ load = []
 displacement = []
 
 # open .dat file and read it
-with open(r'C:\Users\Test\Desktop\Purdue\ECE 595 Introduction to Electronics Packaging and Heterogenous Integration\Labs\Lab 8\SS_C3PO_25C.dat', 'r') as f:
+# change file path to correct path to .dat file
+with open(r'path\to\SS_C3PO_25C.dat', 'r') as f:
     lines = f.readlines()
 
 # create lists for measured variables time, load, displacement as read from the .dat file
